@@ -167,7 +167,7 @@ local function run(msg,matches)
     end
     if matches[1] == "setbotphoto" then
     	redis:set("bot:photo", "waiting")
-    	return '✨عکس جدید ژوپیتر ثبت شد✨'
+    	return '✨عکس جدید ثبت شد✨'
     end
     if matches[1] == "markread" then
     	if matches[2] == "on" then

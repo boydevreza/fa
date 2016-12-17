@@ -208,7 +208,7 @@ if to == 'user' or service or is_admin1(msg) and to == "chat" or to == "channel"
 
 	if matches[1] == 'help' and msg.to.type == 'user' or matches[1] == 'pmhelp' and is_admin1(msg) and msg.to.type ~= 'user' then
       	savelog(msg.to.id, name_log.." ["..msg.from.id.."] used pm help")
-		text = " <i>✨به ژوپیتر خوش آمدید✨!\n\n>برای دریافت گروه یا مدیریت گروه شما توسط ژوپیتر, به سایت SmartTG.ir یا ربات @GetandroidBot مراجعه کنید! یا بایکی از مدیران در تماس باشید, برای اینکار کانال را چک کنید:\n[@JoveCH] \n\nبااستفاده از دستور 'راهنما' لیست دستورات را دریافت کنید!!\n\n✨باتشکر از انتخاب @Getandroid✨ </i>"
+		text = " <i>✨خوش آمدید✨!\n\n>برای دریافت گروه یا مدیریت گروه شما  یا ربات @NECCBOT مراجعه کنید! یا بایکی از مدیران در تماس باشید, برای اینکار کانال را چک کنید:\n[@Getandroid] \n\nبااستفاده از دستور 'راهنما' لیست دستورات را دریافت کنید!!\n\n✨باتشکر از انتخاب @Getandroid✨ </i>"
      	return text
     end
 
