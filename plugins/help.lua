@@ -63,7 +63,7 @@ function run(msg, matches)
     
 〰〰〰〰〰〰〰
 
-✨سایت اصلی: Tarfand.Ir ✨
+✨ @teleblaster_ch ✨
 </i>]]
 end
 
